@@ -1,0 +1,103 @@
+/*
+a rough draft for a tumblr dashboard theme in lilac
+not usable for now as it hasn't been uploaded on the Stylish extension yet
+*/
+
+
+@-moz-document url-prefix("https://www.tumblr.com/dashboard"), url-prefix("https://www.tumblr.com/dashboard")
+{
+
+
+  .l-header-container--refresh
+  {
+    box-shadow: 0 0 0 12px hsla(0, 0%, 100%, .13);
+    background-color: #d8d6ff;
+  }
+
+  .compose-button
+  {
+    fill: #e0dff7;
+  }
+
+
+  a, body
+  {
+    color: #d8d6ff;
+  }
+
+  body
+  {
+    font-family: sans-serif
+    font-size: 12px;
+  }
+
+  .identity
+  {
+    background-color: #e0dff7;
+  }
+
+  .l-container.l-container--two-column-dashboard .l-content, .l-container.l-container--two-column .l-content
+  {
+    background-color: #d8d6ff;
+  }
+
+  .l-container.l-container--two-column-dashboard .left_column
+  {
+    background-color: #bab8e0;
+    margin-top: 9px;
+  }
+
+  .l-container.l-container--two-column-dashboard .right_column, .l-container.l-container--two-column .right_column
+  {
+    background-color: #bab8e0;
+  }
+
+    
+  .identity .right_column:after
+  {
+    background: linear-gradient(180deg, #e0dff7, rgba(0, 30, 60, 0));
+  }
+  
+
+  .right_column
+  {
+    background-color: #bab8e0;
+  }
+
+  .identity .right_column
+  {
+    color: #fff;
+    margin-top: 9px;
+  }
+
+  .identity .right_column:after
+  {
+    background: linear-gradient(180deg,#d8d6ff,rgba(0,30,60,0));
+  }
+
+  .sidebar_link.explore_link
+  {
+    color: #fff;
+  }
+    
+
+    .identity .controls_section.user_list li .follow_list_item_blog:before
+  {
+    background-image: linear-gradient(to right, rgba(0, 30, 60, 0), #d8d6ff) !important;
+    border-right: 6px solid #d8d6ff !important;
+  }
+
+  .identity .controls_section.user_list li .follow_list_item_blog:before:hover
+  {
+    background-image: linear-gradient(to right, rgba(0, 30, 60, 0), #d8d6ff) !important;
+    border-right: 6px solid #d8d6ff !important;
+  }
+
+  .identity .controls_section.user_list li .follow_list_item_blog:before
+  {
+    background-image: linear-gradient(90deg,rgba(0, 30, 60, 0),#d8d6ff) !important;
+    border-right: 6px solid #d8d6ff !important;
+  }
+
+
+}
